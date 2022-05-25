@@ -1,10 +1,11 @@
 package pl.radek.panorama;
 
 import android.graphics.Bitmap;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
@@ -45,43 +46,43 @@ public class MainActivity extends AppCompatActivity {
 //                        .into(img);
 
 
-//                int resId;
-//                switch (currentTexture++) {
-//                    case 0:
-//                        resId = R.raw.pano10;
-//                        break;
-//                    case 1:
-//                        resId = R.raw.pano;
-//                        break;
-//                    case 2:
-//                        resId = R.raw.pano2;
-//                        break;
-//                    case 3:
-//                        resId = R.raw.pano3;
-//                        break;
-//                    case 4:
-//                        resId = R.raw.pano4;
-//                        break;
-//                    case 5:
-//                        resId = R.raw.pano5;
-//                        break;
-//                    case 6:
-//                        resId = R.raw.pano6;
-//                        break;
-//                    case 7:
-//                        resId = R.raw.pano7;
-//                        break;
-//                    case 8:
-//                        resId = R.raw.pano8;
-//                        break;
-//                    case 9:
-//                        resId = R.raw.pano9;
-//                        currentTexture = 0;
-//                        break;
-//                    default:
-//                        resId = R.raw.pano;
-//                }
-//                panoramaGLSurfaceView.setPanoramaResourceId(resId);
+                int resId;
+                switch (currentTexture++) {
+                    case 0:
+                        resId = R.raw.pano10;
+                        break;
+                    case 1:
+                        resId = R.raw.pano;
+                        break;
+                    case 2:
+                        resId = R.raw.pano2;
+                        break;
+                    case 3:
+                        resId = R.raw.pano3;
+                        break;
+                    case 4:
+                        resId = R.raw.pano4;
+                        break;
+                    case 5:
+                        resId = R.raw.pano5;
+                        break;
+                    case 6:
+                        resId = R.raw.pano6;
+                        break;
+                    case 7:
+                        resId = R.raw.pano7;
+                        break;
+                    case 8:
+                        resId = R.raw.pano8;
+                        break;
+                    case 9:
+                        resId = R.raw.pano9;
+                        currentTexture = 0;
+                        break;
+                    default:
+                        resId = R.raw.pano;
+                }
+                panoramaGLSurfaceView.setPanoramaResourceId(resId);
             }
         });
 
